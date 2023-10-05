@@ -1,0 +1,29 @@
+:root { 
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario:#ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --fuente:'Krub', sans-serif;
+}
+
+
+html { 
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--fuente);
+}
+/* esta configuracion hace que 10px sea igual a 1rem haciendolo mas facil de manejar.*/
+
+
+.titulo { 
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.titulo span { 
+    font-size: 2rem;
+}
