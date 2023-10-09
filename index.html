@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador freelancer</title>
-    <link rel="preload" href="css/normalize.css">
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,29 +33,35 @@
     
 
     
-    <section>
-        <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span> </h2>
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span> </h2>
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-code" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-            <path d="M11.85 21.48a1.992 1.992 0 0 1 -1.263 -.58l-4.244 -4.243a8 8 0 1 1 13.385 -3.585" />
-            <path d="M20 21l2 -2l-2 -2" />
-            <path d="M17 17l-2 2l2 2" />
-        </svg>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-code" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M11.85 21.48a1.992 1.992 0 0 1 -1.263 -.58l-4.244 -4.243a8 8 0 1 1 13.385 -3.585" />
+                    <path d="M20 21l2 -2l-2 -2" />
+                    <path d="M17 17l-2 2l2 2" />
+                </svg>
     
-        <p>Guadalajara,jalisco</p>
+        <p> Guadalajara,jalisco</p>
 
-        <a href="#">Contactar</a>
+            </div>
+            
+
+        <a class="boton" href="#">Contactar</a>
+        </div>  <!-- .contenido hero -->
+        
 
     </section>
 
-    
-
-    
-    <main>
+    <main class="contenedor sombra" >
 
     <h2>Mis Servicios</h2>
+
+    <div class="servicios">
 
         <section>
             <h3>Diseño Web</h3>
@@ -107,7 +113,7 @@
 
             <p> corrupti voluptas in inventore laudantium repellendus ea! corrupti voluptas in inventore laudantium repellendus ea! corrupti voluptas in inventore laudantium repellendus ea!</p>
         </section>
-
+    </div> <!--.Servicios-->
     </main>
 
     <section>
